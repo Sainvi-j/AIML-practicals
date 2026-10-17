@@ -1,0 +1,14 @@
+Hours Studied (X): [ 1  2  3  4  5  6  7  8  9 10]
+Marks Scored (y): [20 30 35 45 50 60 65 70 80 90]
+
+Model Parameters:
+Slope (m): 7.4242
+Intercept (c): 13.6667
+
+Predicted Marks: [21.09 28.52 35.94 43.36 50.79 58.21 65.64 73.06 80.48 87.91]
+
+Evaluation Metrics:
+Mean Squared Error (MSE): 2.5152
+R2 Score: 0.9945
+
+Predicted marks for 7.5 hours of study: 69.35

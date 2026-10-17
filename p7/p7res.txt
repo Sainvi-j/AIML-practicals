@@ -1,0 +1,23 @@
+Original Dataset Shape: (150, 4)
+Features: ['sepal length (cm)', 'sepal width (cm)', 'petal length (cm)', 'petal width (cm)']
+
+Shape after PCA: (150, 2)
+
+Explained Variance Ratio:
+[0.72962445 0.22850762]
+
+Total Variance Retained:
+95.81 %
+
+First 10 rows of PCA transformed data:
+        PC1       PC2  Target
+0 -2.264703  0.480027       0
+1 -2.080961 -0.674134       0
+2 -2.364229 -0.341908       0
+3 -2.299384 -0.597395       0
+4 -2.389842  0.646835       0
+5 -2.075631  1.489178       0
+6 -2.444029  0.047644       0
+7 -2.232847  0.223148       0
+8 -2.334640 -1.115328       0
+9 -2.184328 -0.469014       0

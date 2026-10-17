@@ -1,0 +1,13 @@
+1. A* ALGORITHM IMPLEMENTATION
+Start Node : A
+Goal Node  : G
+Path found : A -> B -> E -> G
+Total Cost : 5
+2. AO* ALGORITHM IMPLEMENTATION
+And-Or Graph Structure:
+A (OR)
+├── B (AND) → D (cost 3) and E (cost 4)
+└── C (OR)  → F (cost 5) or G (cost 2)
+
+Best Solution Path : A → C → G
+Minimum Cost       : 4

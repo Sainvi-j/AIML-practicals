@@ -1,0 +1,14 @@
+Model Accuracy: 100.0 %
+
+Test Case 1 ---
+
+Object Status: Pickable
+Moving arm to Pick Position: (57.0, 22.0)
+Gripper Closed - Object Picked
+Moving arm to Drop Position: (50, 50)
+Gripper Opened - Object Dropped Successfully
+
+Test Case 2 ---
+
+Object Status: Non-Pickable
+Robotic Arm remains idle.

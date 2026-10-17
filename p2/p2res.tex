@@ -1,0 +1,112 @@
+1. PANDAS DEMONSTRATION
+
+ Original DataFrame 
+     Name  Maths  Science  English  Age
+0    Amit     78       82       75   18
+1   Priya     85       79       88   19
+2   Rahul     62       68       71   18
+3   Sneha     91       88       85   20
+4  Vikram     55       60       65   19
+5    Neha     88       92       80   18
+6   Rohan     73       70       78   20
+7  Anjali     95       90       93   19
+
+ First 5 rows (head) 
+     Name  Maths  Science  English  Age
+0    Amit     78       82       75   18
+1   Priya     85       79       88   19
+2   Rahul     62       68       71   18
+3   Sneha     91       88       85   20
+4  Vikram     55       60       65   19
+
+ Basic Information
+<class 'pandas.DataFrame'>
+RangeIndex: 8 entries, 0 to 7
+Data columns (total 5 columns):
+ #   Column   Non-Null Count  Dtype
+---  ------   --------------  -----
+ 0   Name     8 non-null      str  
+ 1   Maths    8 non-null      int64
+ 2   Science  8 non-null      int64
+ 3   English  8 non-null      int64
+ 4   Age      8 non-null      int64
+dtypes: int64(4), str(1)
+memory usage: 452.0 bytes
+None
+
+ Statistical Summary
+          Maths    Science    English        Age
+count   8.00000   8.000000   8.000000   8.000000
+mean   78.37500  78.625000  79.375000  18.875000
+std    14.22209  11.599723   9.179753   0.834523
+min    55.00000  60.000000  65.000000  18.000000
+25%    70.25000  69.500000  74.000000  18.000000
+50%    81.50000  80.500000  79.000000  19.000000
+75%    88.75000  88.500000  85.750000  19.250000
+max    95.00000  92.000000  93.000000  20.000000
+
+ Column Names
+['Name', 'Maths', 'Science', 'English', 'Age']
+
+ Shape of DataFrame
+(8, 5)
+
+ Selecting specific columns 
+     Name  Maths  Science
+0    Amit     78       82
+1   Priya     85       79
+2   Rahul     62       68
+3   Sneha     91       88
+4  Vikram     55       60
+5    Neha     88       92
+6   Rohan     73       70
+7  Anjali     95       90
+
+ Filtering: Students with Maths > 80
+     Name  Maths  Science  English  Age
+1   Priya     85       79       88   19
+3   Sneha     91       88       85   20
+5    Neha     88       92       80   18
+7  Anjali     95       90       93   19
+
+ Adding a new column: Total Marks
+     Name  Maths  Science  English  Age  Total
+0    Amit     78       82       75   18    235
+1   Priya     85       79       88   19    252
+2   Rahul     62       68       71   18    201
+3   Sneha     91       88       85   20    264
+4  Vikram     55       60       65   19    180
+5    Neha     88       92       80   18    260
+6   Rohan     73       70       78   20    221
+7  Anjali     95       90       93   19    278
+
+ Sorting by Total Marks (Descending) 
+     Name  Maths  Science  English  Age  Total
+7  Anjali     95       90       93   19    278
+3   Sneha     91       88       85   20    264
+5    Neha     88       92       80   18    260
+1   Priya     85       79       88   19    252
+0    Amit     78       82       75   18    235
+6   Rohan     73       70       78   20    221
+2   Rahul     62       68       71   18    201
+4  Vikram     55       60       65   19    180
+
+ Group by Age and calculate mean marks 
+         Maths    Science    English
+Age                                 
+18   76.000000  80.666667  75.333333
+19   78.333333  76.333333  82.000000
+20   82.000000  79.000000  81.500000
+
+ Checking for missing values 
+Name       0
+Maths      0
+Science    0
+English    0
+Age        0
+Total      0
+dtype: int64
+
+2. MATPLOTLIB VISUALIZATION
+
+All plots have been displayed successfully!

@@ -1,0 +1,8 @@
+Mean Squared Error (MSE): 0.261
+R2 Score (Accuracy): 0.9988
+Accuracy in percentage: 99.88 %
+
+Actual Temperature   : [55 69 45 84 80]
+Predicted Temperature: [54.8  69.26 43.95 83.73 80.1 ]
+
+Predicted Temperature for new condition: 74.67 °C

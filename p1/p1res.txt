@@ -1,0 +1,45 @@
+1. MATH LIBRARY DEMONSTRATION
+Square root of 16     : 4.0
+Power (2^5)           : 32.0
+Ceiling of 4.3        : 5
+Floor of 4.9          : 4
+Factorial of 5        : 120
+Value of pi           : 3.141592653589793
+Value of e            : 2.718281828459045
+sin(90°) in radians   : 1.0
+log10 of 1000         : 3.0
+2. STATISTICS LIBRARY DEMONSTRATION
+Data                  : [12, 15, 18, 22, 15, 30, 25, 18, 15, 20]
+Mean                  : 19
+Median                : 18.0
+Mode                  : 15
+Variance              : 29.555555555555557
+Standard Deviation    : 5.436502143433364
+Harmonic Mean         : 17.754662840746054
+3. NUMPY LIBRARY DEMONSTRATION
+1D Array              : [1 2 3 4 5]
+2D Array              :
+[[1 2 3]
+ [4 5 6]]
+
+Array + 10            : [11 12 13 14 15]
+Array * 2             : [ 2  4  6  8 10]
+Square of array       : [ 1  4  9 16 25]
+Square root           : [1.         1.41421356 1.73205081 2.         2.23606798]
+Mean of array         : 3.0
+Sum of array          : 15
+Max value             : 5
+Min value             : 1
+
+Random array (0-1)    : [0.50957936 0.19719304 0.69435704 0.68009345 0.22535367]
+Random integers       : [16  4 45 45 46]
+
+Matrix A:
+[[1 2]
+ [3 4]]
+Matrix B:
+[[5 6]
+ [7 8]]
+Matrix Multiplication (A @ B):
+[[19 22]
+ [43 50]]
