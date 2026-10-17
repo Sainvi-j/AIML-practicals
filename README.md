@@ -39,9 +39,10 @@ This repository contains Artificial Intelligence and Machine Learning practicals
     (Replace p1 with the practical folder you want to run)
 
 ## Requirements
-
+```bash
 • Python 3.8+
 • numpy
 • pandas
 • matplotlib
 • scikit-learn
+```
