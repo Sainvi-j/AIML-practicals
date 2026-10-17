@@ -26,15 +26,16 @@ This repository contains Artificial Intelligence and Machine Learning practicals
    ```
 
 3. Activate the virtual environment:
-  •  Windows: venv\Scripts\activate
-  •  Mac/Linux: source venv/bin/activate
-
-4. Install dependencies:
+   ```bash
+   •  Windows: venv\Scripts\activate
+   •  Mac/Linux: source venv/bin/activate
+   ```
+5. Install dependencies:
     ```bash
     pip install -r requirements.txt
     ```
 
-5. Run any practical:Bashpython p1/main.py
+6. Run any practical:Bashpython p1/main.py
     (Replace p1 with the practical folder you want to run)
 
 ## Requirements
